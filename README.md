@@ -12,3 +12,10 @@
     export const component;
     import {component} from "path";
 
+8. There are 2 types of routing -
+
+    Client side routing - JavaScript update the UI dynamically without reloading the page.
+
+    Server side routing - Each request reload the new page from the server.
+
+9. 
