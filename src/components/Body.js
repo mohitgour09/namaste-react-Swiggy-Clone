@@ -8,7 +8,6 @@ const Body = () => {
   const [allRestaurant, setAllRestaurant] = useState([]);
   const [listOfRestaurant, setListOfRestaurant] = useState([]);
   const [searchText, setSearchText] = useState("");
-  // console.log(listOfRestaurant[0].info.name)
 
   useEffect(() => {
     fetchData();
@@ -28,7 +27,7 @@ const Body = () => {
     );
   };
 
-  console.log(setAllRestaurant);
+  
 
   return listOfRestaurant.length === 0 ? (
     <Shimmer />

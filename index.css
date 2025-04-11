@@ -78,3 +78,8 @@
 .search-box{
   margin: 2px;
 }
+
+.user-card {
+  padding: 10Px;
+  border: 1px solid black;
+}
