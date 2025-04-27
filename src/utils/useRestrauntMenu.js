@@ -6,7 +6,7 @@ const useRestrauntMenu = (resId) => {
 
   useEffect(() => {
     fetchData();
-  });
+  },[]);
 
   async function fetchData() {
     const data = await fetch(MENU_API + resId);
