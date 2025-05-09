@@ -32,7 +32,7 @@ const RestaurantMenu = () => {
       <p className="font-bold text-lg">
         {cuisines.join(", ")} - {costForTwoMessage}
       </p>
-      {categories.map((category, index) => (
+      {categories?.map((category, index) => (
         <RestaurantCategory
           data={category?.card?.card}
           key={category?.card?.card?.categoryId}
